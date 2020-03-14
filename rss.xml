@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Goznauk Dev Blog]]></title><description><![CDATA[A Gatsby Blog of Goznauk]]></description><link>https://goznauk.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 27 Jan 2020 10:04:01 GMT</lastBuildDate><item><title><![CDATA[Android Multithreading]]></title><description><![CDATA[Contents Android Threads 1.1. UI, Binder, Background Thread 1.2. Blocking UI Thread and ANR MultiThreading 2.1. Basic Usage 2.…]]></description><link>https://goznauk.github.ioandroid-multithreading</link><guid isPermaLink="false">https://goznauk.github.ioandroid-multithreading</guid><pubDate>Thu, 22 Oct 2015 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Goznauk Dev Blog]]></title><description><![CDATA[A Gatsby Blog of Goznauk]]></description><link>https://goznauk.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 14 Mar 2020 11:27:55 GMT</lastBuildDate><item><title><![CDATA[Build docker image with volume mount]]></title><description><![CDATA[Docker Build시에 volume mount가 당연히 가능할 줄 알고 inference model이나 pip cache 등을 volume 으로 넣어주려고 했으나…  그러던 차에 StackOverFlow의 글을 발견했다. BuildKit…]]></description><link>https://goznauk.github.iobuild-docker-image-with-volume</link><guid isPermaLink="false">https://goznauk.github.iobuild-docker-image-with-volume</guid><pubDate>Sat, 14 Mar 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Docker Build시에 volume mount가 당연히 가능할 줄 알고 inference model이나 pip cache 등을 volume 으로 넣어주려고 했으나…&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 241px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f27c1213413301820c644089fe4241d2/87673/impossible.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 86.72199170124482%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsSAAALEgHS3X78AAACNklEQVQ4y41TaW/aQBDl//+RfG9FBWlFFRLRRMGSDwrYGBvXNj4wYA5fa+86z15yKEVq58Nqd3bevJm3s508zy3L2m63m82GUsoYq//bOkVRuK6bJMl+vwcYG6Q7nU7w/xv8twswz/NM06wpbc5YP5bzYd9hrfEDIQS0/Loqy9JcUesPDUIaBOycfEI2YMRQzlDXx+NxvV77vs/TsTRlWdZwWza1nQtxmtav8R2oVVVVm/RSwm63C4Kg8bRBJI7P338wcwUMI6TSNIbqOBgKGYahaZqu67PW9nEcuO6xja6enmLbXhvGRtdLRaGOW8pKqap1WV4Eg9phGIIQOqHmc5KkSbK6uakd9zAYAImYeDLxe33qB6U8Ib8eOXkDhrDz+Xw6nYqiqMgy3sy17ejL19pc2cP737KMmNRcKf3bne3QhwciCJeyQYvovM2EnklRxIeDKgiTbrcOw5kgfOt2UYkoSbc/B5Fl1WOhRC2tHJ0sy1AzxouvvucFUZRD88UC14/Pz4qiQFG0I0mSbVmEsSoI33tuB4GS1jCfzWNG25KQtee5joOmMLx4QijSZA/DQF9CuQv40zxDjML3Z5qWphAuQcaqtbcA0zBybQHCK+NZ50VuO9pyKYnieDzmivCxRwtzVb0fDmm0BecVMMtytjTSLHMcp8hzrCgYumJyZtOp4/skiqqFfv1jNINVEABGoxGYseGtDe/u+r1eI5CqVdriOpgbmgQn/iZ65h78giRNKZp/9bwAaYfCMCQlgEYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;impossible&quot;
+        title=&quot;impossible&quot;
+        src=&quot;/static/f27c1213413301820c644089fe4241d2/87673/impossible.png&quot;
+        srcset=&quot;/static/f27c1213413301820c644089fe4241d2/00d96/impossible.png 148w,
+/static/f27c1213413301820c644089fe4241d2/87673/impossible.png 241w&quot;
+        sizes=&quot;(max-width: 241px) 100vw, 241px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그러던 차에 &lt;a href=&quot;https://stackoverflow.com/questions/58018300/using-a-pip-cache-directory-in-docker-builds&quot;&gt;StackOverFlow의 글&lt;/a&gt;을 발견했다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/moby/buildkit&quot;&gt;BuildKit&lt;/a&gt;을 사용하면 가능하다고.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dockerfile:experimental을 Pull 하고&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;docker pull docker/dockerfile:experimental&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Dockerfile 상단에 다음과 같은 주석을 추가해 주고&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;dockerfile&quot;&gt;&lt;pre class=&quot;language-dockerfile&quot;&gt;&lt;code class=&quot;language-dockerfile&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# syntax = docker/dockerfile:experimental&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;FROM&lt;/span&gt; some/docker&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;image&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;필요한 곳에 &lt;code class=&quot;language-text&quot;&gt;RUN&lt;/code&gt; 대신 &lt;code class=&quot;language-text&quot;&gt;RUN --mount=........&lt;/code&gt;를 사용한다.&lt;/li&gt;
+&lt;li&gt;안타깝게도 bind는 read만 가능한듯?&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;type=cache&lt;/code&gt;가 유용해 보임&lt;/li&gt;
+&lt;li&gt;더 자세한 옵션은 &lt;a href=&quot;https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/experimental.md#run---mounttypebind-the-default-mount-type&quot;&gt;이 곳&lt;/a&gt; 참조&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;dockerfile&quot;&gt;&lt;pre class=&quot;language-dockerfile&quot;&gt;&lt;code class=&quot;language-dockerfile&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Cache pip packages&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;RUN&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;mount=type=cache&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;target=/root/.cache/pip pip install some&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;package
+&lt;span class=&quot;token comment&quot;&gt;# Cache apt packages&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;RUN&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;mount=type=cache&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;target=/var/cache/apt &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;mount=type=cache&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;target=/var/lib/apt \
+  apt update &amp;amp;&amp;amp; apt&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;get &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;no&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;install&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;recommends install &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;y gcc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;실행시 DOCKER_BUILDKIT을 1로 주면 된다. (docker-compose build도 동일하게 가능)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# set env variable $DOCKER_BUILDKIT to 1&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;DOCKER_BUILDKIT&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; docker build -t my-image &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Android Multithreading]]></title><description><![CDATA[Contents Android Threads 1.1. UI, Binder, Background Thread 1.2. Blocking UI Thread and ANR MultiThreading 2.1. Basic Usage 2.…]]></description><link>https://goznauk.github.ioandroid-multithreading</link><guid isPermaLink="false">https://goznauk.github.ioandroid-multithreading</guid><pubDate>Thu, 22 Oct 2015 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Contents&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
